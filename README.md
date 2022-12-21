@@ -10,3 +10,5 @@ Scrivi un programma che stampi in console i numeri da 1 a 100, con le seguenti r
     - SE I NUMERI SONO 3 O MULTIPLI DI 3 > STAMPARE FIZZ
     - SE I NUMERI SONO 5 O MULTIPLI DI 5 > STAMPARE BUZZ
     - SE I NUMERI SONO MULTIPLI DI 3 E 5 > STAMPARE FIZZBUZZ
+
+(FizzBuzz potrebbe essere = concatenazione risultato primo if + risultato secondo if)
