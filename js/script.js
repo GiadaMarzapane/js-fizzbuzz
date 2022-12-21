@@ -1,8 +1,6 @@
 for (let index = 1; index <= 100; index++) {
 
-    const element = index;
-    console.log(index);
-    
+    const element = index;    
     if ((index % 3 == 0) && (index % 5 == 0)){
         console.log('FIZZBUZZ');
     }
@@ -11,5 +9,8 @@ for (let index = 1; index <= 100; index++) {
     }
     else if (index % 5 == 0){
         console.log('BUZZ');    
-    }   
+    }
+    else{
+        console.log(index);
+    }
 }
