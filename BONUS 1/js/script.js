@@ -7,15 +7,12 @@ for (let index = 1; index <= 100; index++) {
     const element = `<div class="box">${index}</div>`;
 
     if ((index % 3 == 0) && (index % 5 == 0)){
-        console.log('FIZZBUZZ');
         main.innerHTML += elementFizzBuzz;
     }
     else if (index % 3 == 0){
-        console.log('FIZZ');
         main.innerHTML += elementFizz;
     }
     else if (index % 5 == 0){
-        console.log('BUZZ'); 
         main.innerHTML += elementBuzz;
     }
     else{
