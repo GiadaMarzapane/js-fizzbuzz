@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+.box-fizz {
+    background-color: yellow;
+}
+
+.box-buzz {
+    background-color: blue;
+}
+
+.box-buzzfizz {
+    background-color: green;
+}
